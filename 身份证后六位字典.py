@@ -1,7 +1,6 @@
 
-from numba import jit
 import time
-#@jit
+
 def gezidian():
     fileobj=open('zidian.txt','a',encoding='utf-8')
     list1=[]
